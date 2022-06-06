@@ -1,7 +1,7 @@
 \name{res_vs_index}
 \alias{res_vs_index}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{res_vs_index
 %%  ~~function to do ... ~~
 }
 \description{
@@ -52,8 +52,8 @@ res_vs_index(model, res_type = "deviance")
 ## The function is currently defined as
 function (model, res_type = "deviance") 
 {
-    plot(residuals.glm(model, type = res_type), ylab = paste("ResÌduos", 
-        res_type), xlab = "Õndice")
+    plot(residuals.glm(model, type = res_type), ylab = paste("Res√≠duos", 
+        res_type), xlab = "√çndice")
     abline(h = c(-2, 2), lwd = 1, lty = 3)
   }
 }
