@@ -1,7 +1,7 @@
 \name{influence}
 \alias{influence}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{influence
 %%  ~~function to do ... ~~
 }
 \description{
@@ -78,7 +78,7 @@ function (model, identify = NULL)
         nobs <- rank.fit + glmfit$df.residual
         cooky <- 8/(nobs - 2 * rank.fit)
         hy <- (2 * rank.fit)/(nobs - 2 * rank.fit)
-        plot(x = hh, y = glmdiag$cook, xlab = "h/(1-h)", ylab = "Estatística de Cook")
+        plot(x = hh, y = glmdiag$cook, xlab = "h/(1-h)", ylab = "EstatÃ­stica de Cook")
         if ((hy >= rx[1L]) && (hy <= rx[2L])) 
             abline(h = hy, lty = 2)
         if ((cooky >= ry[1L]) && (cooky <= ry[2L])) 
