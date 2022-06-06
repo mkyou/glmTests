@@ -1,7 +1,7 @@
 \name{res_vs_fitted}
 \alias{res_vs_fitted}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{res_vs_fitted
 %%  ~~function to do ... ~~
 }
 \description{
