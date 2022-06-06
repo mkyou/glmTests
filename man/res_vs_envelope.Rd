@@ -1,7 +1,7 @@
 \name{res_vs_envelope}
 \alias{res_vs_envelope}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{res_vs_envelope
 %%  ~~function to do ... ~~
 }
 \description{
