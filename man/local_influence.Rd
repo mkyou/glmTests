@@ -1,7 +1,7 @@
 \name{local_influence}
 \alias{local_influence}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{local_influence
 %%  ~~function to do ... ~~
 }
 \description{
